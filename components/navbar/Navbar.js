@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./NavBar.css";
+import "./NavBar.module.css";
 import ConstructionPopUp from '../constructionPopUp/ConstructionPopUp';
 export default function NavBar() {
   useEffect(() => {
