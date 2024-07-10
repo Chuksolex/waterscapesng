@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./NavBar.module.css";
+import styles from "./NavBar.module.css";
 import ConstructionPopUp from '../constructionPopUp/ConstructionPopUp';
 export default function NavBar() {
   useEffect(() => {
@@ -21,7 +21,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className={`navbar navbar-expand-lg navbar-light ${styles.navbar}`}>
       <div className="container-fluid">
         <button
           className="navbar-toggler"
