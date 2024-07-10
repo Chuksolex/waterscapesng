@@ -1,0 +1,132 @@
+.image-slider{
+    text-align: center;
+    background-color: rgba(29, 40, 194, 0.459); /* Dark background color */
+    width: 100%;
+   
+
+
+    img{ 
+        width: 100%;
+        height: 35rem;
+        opacity: 0.7;
+    }
+    &:hover {
+        img {
+          opacity: 0.7; /* Set opacity back to 1 on hover */
+        }
+      }
+    .quotebutton {
+        background-color: blue;
+        color: white;
+        font-weight: 700;
+        padding: 0.5rem 1rem;
+        border-radius: .5rem;
+        border: none;
+        position: absolute;
+        bottom: 1rem;
+        :hover:active{
+            background-color: green   }
+                  
+    
+    
+    }
+}
+
+.header{
+    margin: 0;
+    color: white;
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    
+    
+    
+}
+
+.slick-prev:before, .slick-next:before {
+    color: blue;
+}
+
+
+@media screen and (max-width: 780px) {
+    .image-slider{
+   
+
+        img{
+            width: 100%;
+            height: 15rem;
+        }
+        .quotebutton {
+            
+
+
+            position: absolute;
+            bottom: 20px;
+            background-color: blue;
+            :hover:active{background-color: green;}
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            z-index: 1;
+            transition: background-color 0.3s ease;
+        }
+        
+    }
+    
+  }
+
+
+
+//   .image-slider {
+   
+  
+//     img {
+//       max-width: 100%;
+//       height: auto;
+//       opacity: 0.5; /* Adjust the opacity level as needed */
+//       transition: opacity 0.3s ease; /* Add a transition effect */
+//     }
+  
+//     &:hover {
+//       img {
+//         opacity: 1; /* Set opacity back to 1 on hover */
+//       }
+//     }
+  
+//     .header {
+//       position: absolute;
+//       top: 50%;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//       color: white;
+//       font-size: 24px;
+//       z-index: 1;
+//     }
+  
+//     .quotebutton {
+//       position: absolute;
+//       bottom: 20px;
+//       left: 50%;
+//       transform: translateX(-50%);
+//       background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+//       color: white;
+//       border: none;
+//       padding: 10px 20px;
+//       cursor: pointer;
+//       z-index: 1;
+//       transition: background-color 0.3s ease;
+//     }
+  
+//     .quotebutton:hover {
+//       background-color: rgba(0, 0, 0, 0.7); /* Darken the background color on hover */
+//     }
+//   }
+ .quotebutton :hover{
+    background-color: green;
+ }
