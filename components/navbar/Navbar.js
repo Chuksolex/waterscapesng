@@ -72,14 +72,15 @@ export default function NavBar() {
                 PORTFOLIO
               </Link>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li>
-                  <Link className="dropdown-item" href="/portfolio/custom-designed-pools">
-                    CUSTOM-DESIGNED-POOLS
-                  </Link>
-                </li>
+               
                 <li>
                   <Link className="dropdown-item" href="/portfolio/swimming-pools-under-construction">
                     SWIMMING-POOLS-UNDER-CONSTRUCTION
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="/portfolio/our-brochure">
+                    Our-Brochure
                   </Link>
                 </li>
               </ul>
@@ -130,7 +131,7 @@ export default function NavBar() {
             onClick={() => navigate('/contact')}
           >
             <div className="reqquote">
-              <span className="text-white text-bold">Request A Quote</span>
+              <Link href={"/contact"} className='btn btn-success'>Get Quote</Link>
             </div>
           </button>
         </div>

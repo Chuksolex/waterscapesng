@@ -3,5 +3,7 @@
     background: url("/assets/images/background.png") no-repeat center center;
     background-size: cover;
     color: white !important;
+
+    text-align: center;
   }
   
