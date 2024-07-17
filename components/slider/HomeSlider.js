@@ -33,8 +33,23 @@ export default function SimpleSlider() {
   return (
     <Slider {...settings}>
       <div className="image-slider">
+        <h2 className="header">Beautiful Designs</h2>
+        <Image src="/assets/images/frontimage1.png" alt="swimming pool pic" width={500} height={300} />
+        <button className="quotebutton" onClick={goToContact}>Contact Us</button>
+      </div>
+      <div className="image-slider">
+        <h2 className="header">Water Fountains</h2>
+        <Image src="/assets/images/frontimage10.png" alt="swimming pool pic" width={500} height={300} />
+        <button className="quotebutton" onClick={goToContact}>Contact Us</button>
+      </div>
+      <div className="image-slider">
         <h2 className="header">Custom Swimming Pools</h2>
         <Image src="/assets/images/pool1.jpg" alt="swimming pool pic" width={500} height={300} />
+        <button className="quotebutton" onClick={goToContact}>Contact Us</button>
+      </div>
+      <div className="image-slider">
+        <h2 className="header">Custom Designs Swimming Pools</h2>
+        <Image src="/assets/images/frontimage2.png" alt="swimming pool pic" width={500} height={300} />
         <button className="quotebutton" onClick={goToContact}>Contact Us</button>
       </div>
       <div className="image-slider">
@@ -55,6 +70,11 @@ export default function SimpleSlider() {
       <div className="image-slider">
         <h2 className="header">Swimming Treatment & Chemicals</h2>
         <Image src="/assets/images/chlorine1.jpg" alt="pool chemical" width={500} height={300} />
+        <button className="quotebutton" onClick={goToContact}>Contact Us</button>
+      </div>
+      <div className="image-slider">
+        <h2 className="header">Swimming Pool With Underwater Massage</h2>
+        <Image src="/assets/images/frontimage7.png" alt="pool chemical" width={500} height={300} />
         <button className="quotebutton" onClick={goToContact}>Contact Us</button>
       </div>
     </Slider>

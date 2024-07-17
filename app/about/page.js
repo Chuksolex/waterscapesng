@@ -14,7 +14,10 @@ const About = () => {
 
   return (
     <div className={styles.about}>
+      <div>
       <h1>About Us</h1>
+      </div>
+    
 
       <p className={styles.p}>
         With over 25 years of experience, we have been collaborating with
@@ -47,10 +50,10 @@ const About = () => {
 
       <div className={styles.imageContainer}>
         <Image
-          src="/assets/images/joe.jpg"
+          src="/assets/images/aboutimage2.png"
           alt="Engr. Joe Edet"
           fill
-          style={{ objectFit: "cover" }}
+          
         />
       </div>
 

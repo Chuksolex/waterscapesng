@@ -88,7 +88,7 @@ export default function NavBar() {
             <li className="nav-item dropdown">
               <Link
                 className="nav-link dropdown-toggle"
-                href="#"
+                href="/swimming-pool-products"
                 id="navbarDropdownMenuLink2"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -97,28 +97,33 @@ export default function NavBar() {
                 SWIMMING-POOL-PRODUCTS
               </Link>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <li>
+                  <Link className="dropdown-item" href="/swimming-pool-products">
+                    POOL PRODUCTS
+                  </Link>
+                </li>
                 <li>
-                  <Link className="dropdown-item" href="/SWIMMING-POOL-PRODUCTS/FOUNTAIN-NOZZLES">
+                  <Link className="dropdown-item" href="/swimming-pool-products/fountain-nozzles">
                     FOUNTAIN NOZZLES
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/SWIMMING-POOL-PRODUCTS/SWIMMING-POOL-ACCESSORIES">
+                  <Link className="dropdown-item" href="/swimming-pool-products/swimming-pool-accessories">
                     SWIMMING-POOL-ACCESSORIES
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/SWIMMING-POOL-PRODUCTS/SWIMMING-POOL-CHEMICALS">
+                  <Link className="dropdown-item" href="/swimming-pool-products/swimming-pool-chemicals">
                     SWIMMING-POOL-CHEMICALS
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/SWIMMING-POOL-PRODUCTS/SWIMMING-POOL-EQUIPMENT">
+                  <Link className="dropdown-item" href="/swimming-pool-products/swimming-pool-equipment">
                     SWIMMING POOL EQUIPMENT
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/SWIMMING-POOL-PRODUCTS/SWIMMING-POOL-TILES">
+                  <Link className="dropdown-item" href="/swimming-pool-products/swimming-pool-tiles">
                     SWIMMING POOL TILES
                   </Link>
                 </li>

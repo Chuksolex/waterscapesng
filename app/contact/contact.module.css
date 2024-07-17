@@ -15,6 +15,10 @@
   flex: 1;
   text-align: center;
 }
+
+.address a{
+  text-decoration: none;
+}
 .map{
   width: 100%;
   position: relative;
